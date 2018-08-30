@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#dv1 {
+	width: 200px;
+	height: 100px;
+	background-color: #F5CD23;
+	background-image: url(../images/lightbox-1sml.jpg);
+	position:fixed;
+	left: 100px;
+	top: 100px;
+	z-index: 5;
+	font-weight: 100px;
+}
+
+#dv2 {
+	width: 200px;
+	height: 100px;
+	background-color: #68A752;
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	z-index: 6;
+
+}
+
+
+#dv3 {
+	width: 200px;
+	height: 100px;
+	background-color: aqua;
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	z-index: 7;
+}
+
+#dv4 {
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+	border: 5px solid #ddd;
+	border-radius: 30px 20px 40px 10px;
+}
+
+#dv5 {
+	background-color: bisque;
+	width: 200px;
+	height: 150px;
+	top: 400px;
+	left: 350px;
+	position: absolute;
+	margin-right: 40px;
+	-webkit-box-shadow: 7px 10px 25px 2px rgba(0,0,0,0.73); 
+	box-shadow: 7px 10px 25px 2px rgba(0,0,0,0.73);
+}
+
+#dv6 {
+	box-shadow: 7px 10px 25px 2px rgba(0,0,0,0.73); 
+	box-shadow: 7px 10px 25px 2px rgba(0,0,0,0.73);
+}
+
+p::before {
+	content: "";
+	background-color: #DD181B;
+	width: 10px;
+	height: 20px;
+	display:inline-block;
+}
+
+p::after {
+	content: "";
+	background-color: #DD181B;
+	width: 10px;
+	height: 20px;
+	display: inline-block;
+}
+
+#nam{
+	border: 5px solid #32D176;
+	background-color: #15C39A;
+	width: 100px;
+	height: 90px;
+	margin: 20px 20px 20px 20px;
+	transition: widht 3s infinite;
+	animation-iteration-count: infinite;
+}
+
+#nam:hover{
+	width: 130px;
+	height: 130px;
+	background-color: #D70C10;
+	
+}
+
+
+
+
+
+
+
+
+
+
